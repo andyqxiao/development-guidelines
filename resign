@@ -1,0 +1,11 @@
+#!/bin/sh
+# Resign the APK with the debug keystore of Dolphin Addon Team
+
+
+
+# The absolute path for the keystore.
+KEYSTORE="/usr/local/android/keystore/xiaominyang@dolphin.keystore"
+
+cd `pwd`
+zip -d $1 META-INF/*
+jarsigner  -storepass android -keystore $KEYSTORE $1 androiddebugkey && echo "Resign successfully"
