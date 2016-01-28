@@ -157,7 +157,7 @@ mHttpManager.requestSignUp(mLiveId, mNameText.getText().toString(),
 		mCompanyText.getText().toString(), mPostionText.getText().toString(),
 		new HttpManager.HttpCallback<Result<String>>(){
 	@Override
-	public void onResult(int id, Result<String> result) {
+	public void onSuccess(int id, Result<String> result) {
 		ActivityUtils.showToast(getActivity(), result.getObject());
 		SignUpDialog.this.dismiss();
 		mSubmitButton.setEnabled(true);
