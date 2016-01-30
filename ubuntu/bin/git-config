@@ -1,0 +1,17 @@
+#!/bin/bash
+# Config the git before using
+
+git config --global user.name "Nick Shaw"
+git config --global user.email drgnnx@gmail.com
+
+git config --global color.diff auto
+git config --global color.status auto
+git config --global color.branch auto
+git config --global color.interactive auto
+
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.br branch
+
+git config --global core.autocrlf false
