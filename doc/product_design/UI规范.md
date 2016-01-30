@@ -17,7 +17,7 @@ Apple的iOS的分辨率如下
 
 * 1x: 320\*480, 1024\*768
 * 2x: 640\*960, 640\*1136, 750\*1334, 2048\*1536
-* 3x: 1080*1920, 1242\*2208, 1125\*2001 
+* 3x: 1080\*1920, 1125\*2001, 1242\*2208
 
 参考：[The Ultimate Guide To iPhone Resolutions](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
@@ -44,7 +44,7 @@ UI设计建议（最佳实践）
 界面与控件
 
 * 全屏图片：360dp，540dp
- * iOS：750px*1136px
+ * iOS：750px*1334px
  * Android：720\*1280, 1080\*1920
 * 标题栏/Actionbar高度：50dp
 * 底部标题栏：50dp
