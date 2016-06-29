@@ -1,7 +1,7 @@
 #!/bin/bash
 # Config the git before using
 
-git config --global user.name "Nick Shaw"
+git config --global user.name "Andy Shaw"
 git config --global user.email drgnnx@gmail.com
 
 git config --global color.diff auto
