@@ -1,0 +1,54 @@
+# OS related
+
+*.swp
+*~
+
+## MacOSX
+*.DS_Store
+
+## Windows
+Thumbs.db
+
+# Local configuration files
+**/local.properties
+
+# IDE related
+
+## SDK
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+/captures
+
+## NDK
+obj/
+#*.o
+#*.so
+#*.lib
+
+## Proguard
+proguard/
+
+## Android Studio & Gradle
+.idea
+*.iml
+*.iws
+*.ipr
+build
+/out/
+
+.gradle
+#gradle
+#gradlew
+#gradlew.bat
+
+## Eclipse ADT & Ant
+.settings
+.metadata
+#.classpath
+#.project
+
+bin
+gen
