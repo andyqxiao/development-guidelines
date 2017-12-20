@@ -1,0 +1,11 @@
+Google Maps API Key:
+0fg8QkRnJHNjltRc2ymaSxaTP73-p-_cgrrJbSg
+
+File MD5
+6db064e5806d8ac14619256c1a3e6d8d
+
+MD5 fingerprint
+49:36:6A:D1:C3:5C:63:9C:DC:38:61:8B:17:F1:06:DE
+
+SHA1 fingerprint
+C8:91:C7:A5:1E:16:7B:61:C1:EA:63:54:4E:80:AF:61:48:29:B1:CF
