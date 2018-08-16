@@ -74,3 +74,22 @@ Fix bug #1234: crashes if network is unavailable
  - Check the network availability before sending the request
  - Suspend the HTTP request when network is unavailable
 ```
+
+### Other
+```
+Finish story #ABC-001: the dynamic news banner in the home page
+```
+```
+Fix bug #ABC: the text on the news banner not shown
+```
+```
+Refactor method Account#getSummary() to avoid multiple if-else blocks
+```
+```
+Do some code changes
+
+ - Delete the unused logic of some domain classes
+ - Rename some classes, the logic of which are changed
+
+Resolves: #1234
+```
