@@ -112,10 +112,10 @@ Layout命名前缀
 | btn/button | 按钮          | btn_submit_pressed.png
 | emo        | 表情          | emo_smile.png
 | bg         | 背景图片       | bg_home.png
-| img        | 内容图片      | img_credit.png
-| separator  | 分割线       | separator_list.png
-| stat       | 状态栏图标    | stat_message.png
-| sym        | 键盘符号     | sym_ok.png
+| img        | 内容图片       | img_credit.png
+| separator  | 分割线        | separator_list.png
+| stat       | 状态栏图标     | stat_message.png
+| sym        | 键盘符号       | sym_ok.png
 
 图标命名后缀
 
