@@ -126,6 +126,12 @@ CSS 1–2.0, HTML 3.2–4, and VGA color names
 | notification   | 通知
 | lock           | 锁屏
 | search         | 搜索控件
+| link           | 链接
+| timepicker     | 时间选择控件
+| datepicker     | 日期选择控件
+| progress_bar   | 进度条
+| seekbar        | 搜索条
+| action_bar     | 工具条
 
 
 ### 颜色命名步骤与例子
