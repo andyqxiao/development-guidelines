@@ -1,2 +1,1 @@
-# android-guidelines
-Guidelines for Android development.
+# General development guidelines
