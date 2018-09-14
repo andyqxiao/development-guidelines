@@ -38,14 +38,14 @@
 
 对于实体类中属性的命名，应该与服务器或者数据库的字段命名完全一致，除非它们的命名在我们的编程语言中并非一个合法的标识符。
 
-对于实体类中存取方法的命名，如果语言支持自动定义，应遵从其自动的定义；如果没有，则遵从Java的通用规范，采用getXXX，setXXX，isXXX，hasXXX等。
+对于实体类中存取方法的命名，如果语言支持自动定义，应遵从其自动的定义；如果没有，则遵从Java的通用规范，使用getXXX，setXXX，isXXX，hasXXX等。
 
 如果hashCode()方法被重写，那么equals()一定要重写；同样，如果equals()方法被重写，那么hashCode()一定要重。且这两个方法必须满足：
 
 * equals()返回true时hashCode()必须相等
 * hashCode()相等时equals()必须返回true
 
-equals()方法的实现必须满足等价关系的条件：
+equals()方法的实现必须满足等价关系：
 
 * 自反性：A.equals(A) == true
 * 对称性：A.equals(B) == B.equals(A)
