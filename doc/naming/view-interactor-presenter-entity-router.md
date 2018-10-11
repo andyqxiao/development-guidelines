@@ -3,8 +3,11 @@
 ## 摘要
 
 * VIP的方法结构
-* VIP各构成类的命名规则
-* Router类与Entity类的命名规则
+* View的命名规则
+* Presenter的命名规则
+* Interactor的命名规则
+* Router的命名规则
+* Entity的命名规则
 
 ### VIP的方法结构
 
@@ -205,8 +208,11 @@ View类中各方法的命名：
 | switch             | 切换（多个状态）
 | toggle             | 切换（两个状态）
 | update             | 更新控件的显示数据（抹掉原来的）
+| reset              | 重置控件的状态
 | add                | 向控件添加数据（与原来的进行叠加或归并）
 | remove             | 移除控件显示的数据（原来的数据可能还有剩余）
+| check              | 验证数据（格式）
+| clear              | 清除控件内容
 
 常见实体
 
@@ -231,6 +237,7 @@ View类中各方法的命名：
 | Loading            | 加载动画
 | Success            | 成功
 | Failure            | 失败
+| Mistake            | 
 | Progress           | 进度条
 
 Presenter类的命名方式：
@@ -260,6 +267,7 @@ Presenter类的命名方式：
 | fetch              | 获取数据（同步的，不论数据的来源）
 | do                 | 操作并获得结果
 | obtain             | 获取数据（同步的，不论数据的来源）
+| verify             | 验证数据（范围与逻辑）
 
 常见实体
 
@@ -283,8 +291,8 @@ Interactor类的命名方式：
 | put                | 把数据写入内存（一般为同步操作）
 | read               | 读取本地文件（同步或异步）
 | write              | 写入本地文件（同步或异步）
-| query              | 从数据中获取结果或状态（包括数据库CRUD等各种方法）
-| request            | 从网络上获取数据或状态（包括HTTP的各种方法）
+| query              | 从数据中获取结果或状态（异步，包括数据库CRUD等各种方法）
+| request            | 从网络上获取数据或状态（异步，包括HTTP的各种方法）
 | process            | 大量的计算或执行操作（异步）
 
 以上命名实体的来源：
